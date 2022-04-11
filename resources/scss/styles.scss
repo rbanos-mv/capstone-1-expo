@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.bg-dark,
+.fg-dark {
+  background-color: #272a31;
+}
+
+.bg-light,
+.fg-light {
+  background-color: #d3d3d3;
+}
+
+.bg-primary,
+.fg-primary {
+  background-color: #ec5242;
+}
+
+.cocogoose {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
