@@ -515,4 +515,29 @@ footer {
     line-height: 20px;
     margin-right: 50px;
   }
+
+  .intro {
+    background-image: url('../images/desktop-intro-bg.png');
+  }
+
+  .event-welcome {
+    font-size: 40px;
+  }
+
+  .event-title {
+    font-size: 60px;
+  }
+
+  .event-message {
+    font-size: 18px;
+    max-width: 690px;
+  }
+
+  .event-dates {
+    font-size: 36px;
+  }
+
+  .event-organizer {
+    font-size: 32px;
+  }
 }
