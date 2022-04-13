@@ -1,3 +1,16 @@
+// variables - basic colors
+$dark: #272a31;
+$light: #d3d3d3;
+$primary: #ec5242;
+
+// variables - fonts
+$cocogoose: 'COCOGOOSE', sans-serif;
+$lato: 'Lato', sans-serif;
+
+// variables - width limits
+$min-width: 375px;
+$max-width: 1440px;
+
 html {
   box-sizing: border-box;
 }
@@ -8,31 +21,71 @@ html {
   box-sizing: inherit;
 }
 
-.bg-dark,
+.bg-white {
+  background-color: white;
+}
+
+.fg-white {
+  color: white;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
 .fg-dark {
-  background-color: #272a31;
+  color: $dark;
 }
 
-.bg-light,
+.bg-light {
+  background-color: $light;
+}
+
 .fg-light {
-  background-color: #d3d3d3;
+  color: $light;
 }
 
-.bg-primary,
+.bg-primary {
+  background-color: $primary;
+}
+
 .fg-primary {
-  background-color: #ec5242;
+  color: $primary;
 }
 
 .cocogoose {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: $cocogoose;
 }
 
 .lato {
-  font-family: 'Lato', sans-serif;
+  font-family: $lato;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.separator {
+  width: 48px;
+  height: 4px;
+  margin: 24px auto 0 auto;
+  background: $primary;
+  border-radius: 24px;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+
+  font-family: $lato;
   font-style: normal;
   font-weight: 400;
+
+  min-width: $min-width;
 }
