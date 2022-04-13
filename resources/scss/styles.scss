@@ -1,6 +1,7 @@
 // variables - basic colors
 $dark: #272a31;
 $light: #d3d3d3;
+$lighter: #f7f7f8;
 $primary: #ec5242;
 
 // variables - fonts
@@ -176,25 +177,28 @@ nav {
   background-size: cover;
 }
 
-.event-welcome {
+.event-welcome,
+.about-welcome {
   font-size: 24px;
   color: $primary;
 }
 
-.event-title {
+.event-title,
+.about-title {
   font-family: $cocogoose;
   font-size: 30px;
   color: $primary;
   margin: 0;
 }
 
-.event-message {
+.event-message,
+.about-message {
   font-size: 13px;
   line-height: 150%;
   padding: 13px 6.5px;
   text-align: justify;
   border: white 4px solid;
-  background-color: #f7f7f8;
+  background-color: $lighter;
 }
 
 .event-dates {
@@ -332,4 +336,33 @@ nav {
 .story-members {
   font-size: 13px;
   margin-top: 4px;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/about-bg-01.png');
+  background-repeat: no-repeat;
+  height: auto;
+  overflow: auto;
+  background-color: $lighter;
+}
+
+.about-welcome {
+  text-align: center;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-message {
+  border: $light 4px solid;
+  background-color: white;
+}
+
+.about-contact {
+  font-size: 13px;
+  line-height: 150%;
+  text-align: center;
 }
