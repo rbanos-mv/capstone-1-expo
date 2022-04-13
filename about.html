@@ -17,6 +17,23 @@
       <header>
         <nav>
           <div class="menu">
+            <div class="menu-top">
+              <ul class="menu-top-list">
+                <li class="menu-top-item">
+                  <a href="#"
+                    ><img src="resources/images/icon_facebook.png" alt=""
+                  /></a>
+                </li>
+                <li class="menu-top-item">
+                  <a href="#"
+                    ><img src="resources/images/icon_twitter.png" alt=""
+                  /></a>
+                </li>
+                <li class="menu-top-item">
+                  <a href="#">English</a>
+                </li>
+              </ul>
+            </div>
             <div class="menu-main">
               <div class="menu-img">
                 <img
@@ -31,6 +48,11 @@
                 />
                 <div>&nbsp;</div>
               </div>
+              <ul id="menu-list" class="menu-list hidden">
+                <li class="menu-item"><a href="/">Home</a></li>
+                <li class="menu-item"><a href="/about.html">About</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+              </ul>
             </div>
           </div>
         </nav>
@@ -62,30 +84,21 @@
         <p class="about-event-paragraph">
           Puedes visitar el sitio de eventos similares en el pasado.
         </p>
-        <img
-          class="about-prev-img"
-          src="resources/images/about-2011.png"
-          alt=""
-        />
-        <img
-          class="about-prev-img"
-          src="resources/images/about-2013.png"
-          alt=""
-        />
+        <div class="about-prev-group">
+          <img
+            class="about-prev-img"
+            src="resources/images/about-2011.png"
+            alt=""
+          />
+          <img
+            class="about-prev-img"
+            src="resources/images/about-2013.png"
+            alt=""
+          />
+        </div>
       </section>
-      <section id="about-partners" class="section about-partners">
-        <h2 class="section-title">Partners</h2>
-        <div class="separator"></div>
-        <img
-          class="about-prev-img"
-          src="resources/images/partners.png"
-          alt=""
-        />
-      </section>
-      <footer>
-        <!-- <div class="footer-text text-center"> -->
+      <footer class="bg-dark fg-white">
         <img class="footer-img" src="resources/images/logo.png" alt="" />
-        <!-- </div> -->
         <p class="footer-text">
           Roberto A. Baños Alvarez, 2022.<br />This is a dummy website for
           educational purposes only, based on a template by
