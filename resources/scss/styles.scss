@@ -160,6 +160,7 @@ nav {
   align-items: center;
   padding: 24px;
   width: 100%;
+  border-top: $light 1px solid;
 }
 
 .section-title {
@@ -370,4 +371,9 @@ nav {
   font-size: 13px;
   text-align: justify;
   margin-top: -24px;
+}
+
+.about-prev-img {
+  width: 100%;
+  padding: 10px 20px;
 }
