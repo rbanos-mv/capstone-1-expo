@@ -344,7 +344,6 @@ nav {
   background-image: url('../images/about-bg-01.png');
   background-repeat: no-repeat;
   height: auto;
-  overflow: auto;
   background-color: $lighter;
 }
 
@@ -365,4 +364,10 @@ nav {
   font-size: 13px;
   line-height: 150%;
   text-align: center;
+}
+
+.about-event-paragraph {
+  font-size: 13px;
+  text-align: justify;
+  margin-top: -24px;
 }
