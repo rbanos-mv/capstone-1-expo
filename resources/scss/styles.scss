@@ -424,6 +424,20 @@ nav {
   color: white;
 }
 
+.about-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  padding: 8px;
+  font-size: 20px;
+  color: $lighter;
+  list-style: none;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -607,6 +621,10 @@ footer {
 
   .about-prev-img {
     width: 50%;
-    // padding: 10px 20px;
+  }
+
+  .about-item {
+    padding: 16px;
+    font-size: 30px;
   }
 }
