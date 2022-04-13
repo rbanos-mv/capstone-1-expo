@@ -257,54 +257,56 @@ nav {
   justify-content: center;
 }
 
-.program-item {
-  display: table;
-  position: relative;
-  vertical-align: middle;
-  height: auto;
-  overflow: auto;
-  float: left;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-bottom: 8px;
-  width: 90vw;
-}
+@media (max-width: 768px) {
+  .program-item {
+    display: table;
+    position: relative;
+    vertical-align: middle;
+    height: auto;
+    overflow: auto;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 8px;
+    width: 90vw;
+  }
 
-.program-icon {
-  float: left;
-  vertical-align: middle;
-  display: inline-block;
-  height: 58px;
-  position: relative;
-}
+  .program-icon {
+    float: left;
+    vertical-align: middle;
+    display: inline-block;
+    height: 58px;
+    position: relative;
+  }
 
-.program-title {
-  float: left;
-  text-align: center;
-  font-size: 14px;
-  width: 26%;
-  padding-left: 7px;
-  line-height: 52px;
-  color: $primary;
-  font-weight: bold;
-  vertical-align: middle;
-  display: inline-block;
-  height: 58px;
-  position: relative;
-}
+  .program-title {
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    width: 26%;
+    padding-left: 7px;
+    line-height: 52px;
+    color: $primary;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    height: 58px;
+    position: relative;
+  }
 
-.program-description {
-  width: calc(74% - 6.5em);
-  float: left;
-  font-size: 12px;
-  padding: 12px 0 8px 0;
-  text-align: left;
-  word-break: keep-all;
-  overflow: auto;
-  height: auto;
-  line-height: 1.5em;
-  vertical-align: middle;
-  display: inline-block;
-  position: relative;
+  .program-description {
+    width: calc(74% - 6.5em);
+    float: left;
+    font-size: 12px;
+    padding: 12px 0 8px 0;
+    text-align: left;
+    word-break: keep-all;
+    overflow: auto;
+    height: auto;
+    line-height: 1.5em;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+  }
 }
 
 .program-join {
@@ -516,6 +518,12 @@ footer {
     margin-right: 50px;
   }
 
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
   .intro {
     background-image: url('../images/desktop-intro-bg.png');
   }
@@ -539,5 +547,42 @@ footer {
 
   .event-organizer {
     font-size: 32px;
+  }
+
+  .program-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .program-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 0 5px;
+    padding: 20px 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .program-icon {
+  }
+
+  .program-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    color: $primary;
+    margin: 16px auto;
+  }
+
+  .program-description {
+    text-align: center;
+  }
+
+  .program-join {
+    font-size: 30px;
   }
 }
