@@ -277,3 +277,59 @@ nav {
   background-color: $primary;
   padding: 30px;
 }
+
+.stories-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.story {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.story-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+}
+
+.story-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.story-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.story-teller {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.story-hashtag {
+  font-size: 13px;
+  color: $primary;
+  font-weight: bold;
+}
+
+.story-team {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.story-members {
+  font-size: 13px;
+  margin-top: 4px;
+}
