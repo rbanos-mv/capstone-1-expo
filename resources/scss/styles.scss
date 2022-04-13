@@ -159,7 +159,6 @@ nav {
   align-items: center;
   padding: 24px;
   width: 100%;
-  border: blue 3px solid;
 }
 
 .section-title {
@@ -207,4 +206,74 @@ nav {
 .event-organizer {
   font-size: 16px;
   margin: 0 0 50px 0;
+}
+
+.program {
+  color: white;
+  background-image: url('../images/pattern-bg.png');
+  background-repeat: repeat;
+  background-color: $dark;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program-item {
+  display: table;
+  position: relative;
+  vertical-align: middle;
+  height: auto;
+  overflow: auto;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 8px;
+  width: 90vw;
+}
+
+.program-icon {
+  float: left;
+  vertical-align: middle;
+  display: inline-block;
+  height: 58px;
+  position: relative;
+}
+
+.program-title {
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  width: 26%;
+  padding-left: 7px;
+  line-height: 52px;
+  color: $primary;
+  font-weight: bold;
+  vertical-align: middle;
+  display: inline-block;
+  height: 58px;
+  position: relative;
+}
+
+.program-description {
+  width: calc(74% - 6.5em);
+  float: left;
+  font-size: 12px;
+  padding: 12px 0 8px 0;
+  text-align: left;
+  word-break: keep-all;
+  overflow: auto;
+  height: auto;
+  line-height: 1.5em;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.program-join {
+  text-align: center;
+  color: white;
+  background-color: $primary;
+  padding: 30px;
 }
