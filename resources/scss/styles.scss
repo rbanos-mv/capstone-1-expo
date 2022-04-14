@@ -478,6 +478,12 @@ footer {
 // **********************************
 //
 @media (min-width: 768px) {
+  .border-primary {
+    color: $primary;
+    border: $primary 2px solid;
+    padding: 10px;
+  }
+
   .menu {
     padding: 0;
   }
@@ -494,7 +500,7 @@ footer {
     width: 100vw;
     margin: 0;
     padding: 0;
-    padding-right: 100px;
+    padding-right: 85px;
   }
 
   .menu-top-list {
@@ -519,7 +525,7 @@ footer {
     justify-content: space-between;
     max-width: $max-width;
     width: 100vw;
-    padding-left: 100px;
+    padding-left: 85px;
   }
 
   .menu-img {
@@ -541,7 +547,8 @@ footer {
     justify-content: flex-end;
     height: 80px;
     margin-top: 0;
-    padding-right: 100px;
+    padding-left: 0;
+    padding-right: 85px;
   }
 
   .menu-item {
@@ -549,13 +556,13 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px 0 10px 50px;
+    padding: 10px 0 10px 20px;
     font-size: 15px;
     line-height: 20px;
   }
 
   .section {
-    padding: 100px;
+    padding: 85px;
   }
 
   .section-title {
