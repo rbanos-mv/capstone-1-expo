@@ -165,10 +165,12 @@ const createStoryCard = (story) => {
 const storiesContainer = document.querySelector('.stories-container');
 
 const createStoryList = () => {
-  stories.forEach((story) => {
-    const aStory = createStoryCard(story);
-    storiesContainer.appendChild(aStory);
-  });
+  if (storiesContainer != null) {
+    stories.forEach((story) => {
+      const aStory = createStoryCard(story);
+      storiesContainer.appendChild(aStory);
+    });
+  }
 };
 
 createStoryList();
