@@ -2,8 +2,7 @@
 
 # Roberto A. Baños Capstone-1 project
 
-> This capstone project consists of building an online website for an event, using HTML, CSS and Javascript.
-
+> This capstone project consists of building an online website for the event "EXPO tuiteratura", using HTML, CSS and Javascript.
 
 ## Built With
 
@@ -14,8 +13,7 @@
 ## Live Demo
 
 - Watch a [Live Demo](https://rbanos-mv.github.io/capstone-1-expo/)
-- Watch our [Video presentation](https://rbanos-mv.github.io/capstone-1-expo/)
-
+- Watch our [Video presentation](https://www.loom.com/share/3d608d0e664d4fe69c66cda834efd919)
 
 ## Getting Started
 
