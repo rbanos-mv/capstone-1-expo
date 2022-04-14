@@ -176,6 +176,7 @@ nav {
     left: 0;
     top: 85px;
     width: 100%;
+    z-index: 1;
   }
 }
 
@@ -454,9 +455,9 @@ footer {
 }
 
 .footer-img {
-  margin-right: 50px;
+  margin: 16px 50px;
   background-color: white;
-  padding: 16px;
+  padding: 8px;
 }
 
 .footer-text {
