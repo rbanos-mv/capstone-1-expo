@@ -74,6 +74,14 @@ html {
   text-align: center;
 }
 
+.text-gradient {
+  background: linear-gradient(to right, #f11904, #a60000, #f6551b, #ef3204);
+  background-clip: text; /* stylelint-disable-line */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .separator {
   width: 53px;
   height: 16px;
