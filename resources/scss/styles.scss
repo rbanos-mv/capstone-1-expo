@@ -176,6 +176,7 @@ nav {
     left: 0;
     top: 85px;
     width: 100%;
+    z-index: 1;
   }
 }
 
@@ -365,6 +366,8 @@ nav {
 .story-team {
   font-size: 13px;
   margin-top: 8px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .story-members {
@@ -403,7 +406,7 @@ nav {
 .about-event-paragraph {
   font-size: 13px;
   text-align: justify;
-  margin-top: -24px;
+  margin: 0 auto 16px auto;
 }
 
 .about-prev-group {
@@ -441,6 +444,7 @@ nav {
 footer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 50px 0;
@@ -451,13 +455,13 @@ footer {
 }
 
 .footer-img {
-  margin-right: 50px;
+  margin: 16px 50px;
   background-color: white;
-  padding: 16px;
+  padding: 8px;
 }
 
 .footer-text {
-  width: 40%;
+  text-align: center;
 }
 
 //
