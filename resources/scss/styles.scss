@@ -74,6 +74,14 @@ html {
   text-align: center;
 }
 
+.text-gradient {
+  background: linear-gradient(to right, #f11904, #a60000, #f6551b, #ef3204);
+  background-clip: text; /* stylelint-disable-line */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .separator {
   width: 53px;
   height: 16px;
@@ -486,7 +494,7 @@ footer {
     width: 100vw;
     margin: 0;
     padding: 0;
-    padding-right: 50px;
+    padding-right: 100px;
   }
 
   .menu-top-list {
@@ -498,7 +506,7 @@ footer {
   .menu-top-item {
     font-size: 13px;
     list-style: none;
-    padding: 4px 10px;
+    padding: 4px 0 4px 20px;
 
     a {
       color: white;
@@ -511,6 +519,7 @@ footer {
     justify-content: space-between;
     max-width: $max-width;
     width: 100vw;
+    padding-left: 100px;
   }
 
   .menu-img {
@@ -524,7 +533,6 @@ footer {
   .menu-logo {
     display: flex;
     background-color: white;
-    margin-left: 38px;
   }
 
   .menu-list {
@@ -533,6 +541,7 @@ footer {
     justify-content: flex-end;
     height: 80px;
     margin-top: 0;
+    padding-right: 100px;
   }
 
   .menu-item {
@@ -540,11 +549,13 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px 12px;
-    // color: $dark;
+    padding: 10px 0 10px 50px;
     font-size: 15px;
     line-height: 20px;
-    margin-right: 50px;
+  }
+
+  .section {
+    padding: 100px;
   }
 
   .section-title {
