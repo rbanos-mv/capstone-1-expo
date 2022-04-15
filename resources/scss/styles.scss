@@ -453,6 +453,12 @@ nav {
   list-style: none;
 }
 
+.about-logo {
+  border: $light 2px solid;
+  padding: 16px;
+  margin: 16px auto;
+}
+
 footer {
   display: flex;
   flex-direction: row;
