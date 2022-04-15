@@ -1,5 +1,5 @@
 {
-  "name": "capstone-conference",
+  "name": "capstone-1-expo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rbanos-mv/capstone-conference.git"
+    "url": "git+https://github.com/rbanos-mv/capstone-1-expo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rbanos-mv/capstone-conference/issues"
+    "url": "https://github.com/rbanos-mv/capstone-1-expo/issues"
   },
-  "homepage": "https://github.com/rbanos-mv/capstone-conference#readme",
+  "homepage": "https://github.com/rbanos-mv/capstone-1-expo#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
