@@ -204,7 +204,7 @@ nav {
 }
 
 .section-title {
-  margin-bottom: 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -323,6 +323,10 @@ nav {
   color: white;
   background-color: $primary;
   padding: 30px;
+}
+
+.program-link {
+  display: none;
 }
 
 .stories-container {
@@ -562,7 +566,7 @@ footer {
   }
 
   .section {
-    padding: 85px;
+    padding: 40px 85px;
   }
 
   .section-title {
@@ -601,6 +605,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 40px;
   }
 
   .program-item {
@@ -608,9 +613,13 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 200px;
-    margin: 0 5px;
-    padding: 20px 5px;
+    margin: 6px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.1);
+    border: transparent 2px solid;
+  }
+  .program-item:hover {
+    border-color: white;
   }
 
   .program-icon {
@@ -634,7 +643,14 @@ footer {
   }
 
   .program-join {
-    font-size: 30px;
+    display: none;
+  }
+
+  .program-link {
+    display: block;
+    color: white;
+    font-size: 24px;
+    text-decoration-line: underline;
   }
 
   .story {
